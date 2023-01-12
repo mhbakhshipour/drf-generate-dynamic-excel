@@ -10,7 +10,7 @@ from app.serializers import AppSerializer
 from app.helpers import genrate_model_fields, genrate_dynamic_excel_data, generate_excel
 
 
-class AttestationViewSet(ModelViewSet):
+class AppViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated]
     serializer_class = AppSerializer
 
